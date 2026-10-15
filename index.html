@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hammas Ahmed — Event Director & Computer Science Undergraduate</title>
+  <title>Hammas Ahmed — Event Director, Organizer & Computer Science Undergraduate</title>
   
   <!-- Google Fonts: Space Grotesk & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,17 +24,19 @@
           colors: {
             brandDark: '#08080C',
             brandSurface: '#121217',
-            brandSurfaceHover: '#1A1A22',
-            brandBorder: '#23232D',
+            brandSurfaceHover: '#1A1A23',
+            brandBorder: '#23232E',
             brandCyan: '#00F0FF',
             brandLime: '#B8FF00',
+            brandPink: '#FF2E93',
+            brandAmber: '#FFB800',
             brandCyanGlow: 'rgba(0, 240, 255, 0.25)',
             brandLimeGlow: 'rgba(184, 255, 0, 0.25)',
             brandTextPrimary: '#F4F4F6',
             brandTextMuted: '#9495A2',
             
-            // Light mode specific tokens
-            lightBg: '#F8F9FC',
+            // Light mode tokens
+            lightBg: '#F8F9FD',
             lightSurface: '#FFFFFF',
             lightSurfaceHover: '#F1F4F9',
             lightBorder: '#E2E8F0',
@@ -82,7 +84,7 @@
       inset: -2px;
       border-radius: inherit;
       padding: 2px;
-      background: linear-gradient(135deg, #00F0FF, #B8FF00, transparent 65%);
+      background: linear-gradient(135deg, #00F0FF, #B8FF00, #FF2E93, transparent 75%);
       -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
@@ -114,7 +116,7 @@
       background: #F1F5F9;
     }
     ::-webkit-scrollbar-thumb {
-      background: #23232D;
+      background: #23232E;
       border-radius: 9999px;
     }
     html:not(.dark) ::-webkit-scrollbar-thumb {
@@ -132,7 +134,7 @@
 
     /* Modal styling */
     .modal-backdrop {
-      background-color: rgba(8, 8, 12, 0.85);
+      background-color: rgba(8, 8, 12, 0.88);
       backdrop-filter: blur(14px);
     }
   </style>
@@ -156,7 +158,7 @@
           </div>
           <div class="flex flex-col">
             <span class="font-display font-bold tracking-wider text-base md:text-lg text-brandTextPrimary group-hover:text-brandCyan transition-colors">HAMMAS AHMED</span>
-            <span class="text-[10px] tracking-widest uppercase text-brandTextMuted -mt-1 font-semibold">CS Undergraduate • Event Director</span>
+            <span class="text-[10px] tracking-widest uppercase text-brandTextMuted -mt-1 font-semibold">Event Organizer • Manager • Coordinator • CS</span>
           </div>
         </a>
 
@@ -164,8 +166,8 @@
         <nav class="hidden xl:flex items-center gap-8 text-xs font-semibold tracking-wider uppercase text-brandTextMuted">
           <a href="#about" class="hover:text-brandCyan transition-colors">Overview</a>
           <a href="#education" class="hover:text-brandCyan transition-colors">Academic Portfolio</a>
-          <a href="#projects" class="hover:text-brandCyan transition-colors">Master Projects</a>
-          <a href="#skills" class="hover:text-brandCyan transition-colors">Dual Skills</a>
+          <a href="#projects" class="hover:text-brandCyan transition-colors">Projects & Events</a>
+          <a href="#skills" class="hover:text-brandCyan transition-colors">Skills Matrix</a>
           <a href="#contact" class="hover:text-brandCyan transition-colors">Contact & Booking</a>
         </nav>
 
@@ -198,7 +200,7 @@
           <span>02. Academic Education</span> <i class="fa-solid fa-arrow-right text-xs"></i>
         </a>
         <a href="#projects" class="mobile-nav-link text-brandTextMuted hover:text-brandCyan py-2.5 border-b border-brandBorder/40 flex items-center justify-between">
-          <span>03. Master Projects (50/50 Balance)</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+          <span>03. Projects & Events (Concerts, Birthdays, Workshops, Web)</span> <i class="fa-solid fa-arrow-right text-xs"></i>
         </a>
         <a href="#skills" class="mobile-nav-link text-brandTextMuted hover:text-brandCyan py-2.5 border-b border-brandBorder/40 flex items-center justify-between">
           <span>04. Dual-Stream Matrix</span> <i class="fa-solid fa-arrow-right text-xs"></i>
@@ -228,25 +230,25 @@
           <!-- Dynamic Live Typewriter Headline -->
           <h1 class="font-display text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold text-brandTextPrimary leading-[1.08] tracking-tight mb-6">
             Hammas Ahmed. <br/>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandCyan via-sky-300 to-brandLime" id="typewriter-text">Organizing Massive Live Concerts.</span><span class="cursor-blink">&nbsp;</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brandCyan via-brandLime to-brandPink" id="typewriter-text">Organizing High-Energy Live Concerts.</span><span class="cursor-blink">&nbsp;</span>
           </h1>
 
           <!-- Personal Introduction Bio -->
           <p class="text-brandTextMuted text-base md:text-lg leading-relaxed max-w-2xl mb-8 font-normal">
-            I'm a <span class="text-brandTextPrimary font-bold">Computer Science student in my 5th Semester at SZABIST Islamabad</span>, seamlessly uniting technical software engineering discipline with on-ground leadership in high-stakes event organizing. Whether designing stage architecture and directing live concerts or engineering clean, responsive web systems, I operate with precision, composure, and absolute execution ownership.
+            I am a <strong class="text-brandTextPrimary">Computer Science student in my 5th Semester at SZABIST Islamabad</strong>, combining algorithmic technical thinking with comprehensive, on-the-ground leadership as an <strong class="text-brandCyan">Event Organizer, Manager, and Coordinator</strong>. From orchestrating high-voltage live music concerts and curating bespoke VIP birthday celebrations to managing campus tech workshops and programming clean web architectures, I deliver unmatched precision and complete execution ownership.
           </p>
 
           <!-- Action Buttons -->
           <div class="flex flex-wrap items-center gap-4 w-full sm:w-auto mb-10">
             <a href="#projects" class="w-full sm:w-auto px-7 py-4 rounded-full bg-brandCyan text-black font-extrabold text-sm tracking-wide hover:bg-[#32f7ff] transition-all shadow-lg shadow-brandCyan/25 text-center flex items-center justify-center gap-2.5">
-              <i class="fa-solid fa-layer-group"></i>
-              <span>Explore Master Projects</span>
+              <i class="fa-solid fa-calendar-check"></i>
+              <span>Explore Events & Projects</span>
             </a>
             <a href="#education" class="w-full sm:w-auto px-7 py-4 rounded-full bg-brandSurface border border-brandBorder text-brandTextPrimary font-bold text-sm hover:border-brandLime hover:text-brandLime transition-all text-center flex items-center justify-center gap-2.5 shadow-md">
               <i class="fa-solid fa-graduation-cap text-brandLime"></i>
               <span>Academic Portfolio</span>
             </a>
-            <a href="https://wa.me/923125771381?text=Hello%20Hammas,%20I%20would%20like%20to%20connect%20regarding%20an%20event/opportunity!" target="_blank" class="w-full sm:w-auto px-6 py-4 rounded-full bg-[#25D366]/15 border border-[#25D366]/40 text-[#25D366] hover:bg-[#25D366] hover:text-black font-bold text-sm transition-all text-center flex items-center justify-center gap-2">
+            <a href="https://wa.me/923125771381?text=Hello%20Hammas,%20I%20would%20like%20to%20connect%20regarding%20an%20event/project!" target="_blank" class="w-full sm:w-auto px-6 py-4 rounded-full bg-[#25D366]/15 border border-[#25D366]/40 text-[#25D366] hover:bg-[#25D366] hover:text-black font-bold text-sm transition-all text-center flex items-center justify-center gap-2">
               <i class="fa-brands fa-whatsapp text-base"></i>
               <span>0312 5771381</span>
             </a>
@@ -259,12 +261,12 @@
               <div class="text-[10px] md:text-xs text-brandTextMuted uppercase tracking-wider font-semibold mt-1">CS @ SZABIST ISB</div>
             </div>
             <div class="bg-brandSurface/80 border border-brandBorder rounded-2xl p-4 text-center">
-              <div class="text-2xl md:text-3xl font-extrabold font-display text-brandLime">15+</div>
-              <div class="text-[10px] md:text-xs text-brandTextMuted uppercase tracking-wider font-semibold mt-1">Live Events Managed</div>
+              <div class="text-2xl md:text-3xl font-extrabold font-display text-brandLime">20+</div>
+              <div class="text-[10px] md:text-xs text-brandTextMuted uppercase tracking-wider font-semibold mt-1">Concerts, Bashes & Workshops</div>
             </div>
             <div class="bg-brandSurface/80 border border-brandBorder rounded-2xl p-4 text-center">
-              <div class="text-2xl md:text-3xl font-extrabold font-display text-brandTextPrimary">1,200+</div>
-              <div class="text-[10px] md:text-xs text-brandTextMuted uppercase tracking-wider font-semibold mt-1">Crowd Footfall Led</div>
+              <div class="text-2xl md:text-3xl font-extrabold font-display text-brandPink">1,500+</div>
+              <div class="text-[10px] md:text-xs text-brandTextMuted uppercase tracking-wider font-semibold mt-1">Audience Footfall Handled</div>
             </div>
             <div class="bg-brandSurface/80 border border-brandBorder rounded-2xl p-4 text-center">
               <div class="text-2xl md:text-3xl font-extrabold font-display text-emerald-400">100%</div>
@@ -293,11 +295,11 @@
 
               <!-- Real Role & University Tags -->
               <div class="absolute top-4 left-4 px-3.5 py-1.5 rounded-full bg-brandDark/90 backdrop-blur-md border border-brandBorder text-[11px] font-bold text-brandCyan flex items-center gap-2 shadow-lg">
-                <i class="fa-solid fa-graduation-cap"></i> SZABIST ISB • CS 5th Sem
+                <i class="fa-solid fa-graduation-cap"></i> SZABIST ISB • 5th Sem
               </div>
 
               <div class="absolute top-4 right-4 px-3.5 py-1.5 rounded-full bg-brandDark/90 backdrop-blur-md border border-brandBorder text-[11px] font-bold text-brandLime flex items-center gap-2 shadow-lg">
-                <i class="fa-solid fa-bolt"></i> Event Organizer
+                <i class="fa-solid fa-bolt"></i> Event Organizer & Manager
               </div>
 
               <!-- Identity Card at Bottom -->
@@ -305,7 +307,7 @@
                 <div class="flex items-center justify-between">
                   <div>
                     <h3 class="font-display font-extrabold text-lg text-white">Hammas Ahmed</h3>
-                    <p class="text-[12px] text-brandCyan font-semibold">Event Coordinator & Full-Stack Builder</p>
+                    <p class="text-[12px] text-brandCyan font-semibold">Concerts • Birthdays • Workshops • Full-Stack</p>
                   </div>
                   <div class="w-9 h-9 rounded-full bg-brandCyan text-black flex items-center justify-center font-bold text-sm">
                     <i class="fa-solid fa-check"></i>
@@ -313,7 +315,7 @@
                 </div>
                 <div class="mt-2 pt-2 border-t border-brandBorder/80 flex items-center justify-between text-[11px] text-brandTextMuted">
                   <span><i class="fa-solid fa-location-dot text-brandLime mr-1"></i> Islamabad, Pakistan</span>
-                  <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-circle text-[8px] mr-1"></i> Active Gigs</span>
+                  <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-circle text-[8px] mr-1"></i> Open for Bookings</span>
                 </div>
               </div>
 
@@ -334,11 +336,11 @@
               <span class="w-2 h-2 rounded-full bg-brandCyan"></span> 01. The Dual Balance
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-extrabold text-brandTextPrimary mt-2">
-              Where Rigorous Computing Meets Live Stage Leadership.
+              Computing Discipline Meets High-Stakes Event Execution.
             </h2>
           </div>
           <p class="text-brandTextMuted max-w-md text-sm md:text-base leading-relaxed">
-            A balanced professional profile harmonizing 5th-semester Computer Science studies with large-scale live event production.
+            A 50/50 balanced portfolio uniting Computer Science undergraduate coursework with practical, versatile event management across Concerts, VIP Birthdays, and Workshops.
           </p>
         </div>
 
@@ -350,19 +352,19 @@
               <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandBorder flex items-center justify-center text-brandCyan text-3xl mb-6 group-hover:scale-110 transition-transform">
                 <i class="fa-solid fa-laptop-code"></i>
               </div>
-              <span class="text-xs uppercase font-extrabold tracking-widest text-brandCyan">Pillar A • 50% Foundation</span>
+              <span class="text-xs uppercase font-extrabold tracking-widest text-brandCyan">Pillar A • 50% Computing Foundation</span>
               <h3 class="font-display text-2xl md:text-3xl font-extrabold text-brandTextPrimary mt-2 mb-4">
                 Computer Science & Web Architecture
               </h3>
               <p class="text-brandTextMuted text-sm md:text-base leading-relaxed mb-6">
-                Currently diving deep into the 5th semester of BS Computer Science at <strong>SZABIST Islamabad</strong>. Focused on structured system architecture, clean front-end programming with semantic HTML5, modern CSS, dynamic JavaScript ES6+, data structures, database schema design, and algorithmic problem-solving.
+                Enrolled in the 5th semester of BS Computer Science at <strong>SZABIST Islamabad</strong>. Focused on structured system architecture, clean front-end programming (HTML5, responsive CSS/Tailwind, JavaScript ES6+), database modeling (relational SQL schemas), data structures & algorithms, and web app lifecycle management.
               </p>
             </div>
             <div class="pt-6 border-t border-brandBorder/80 flex flex-wrap gap-2 text-xs font-semibold">
               <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandCyan border border-brandBorder">SZABIST 5th Sem</span>
               <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Full-Stack Logic</span>
               <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Data Structures</span>
-              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Vanilla JS / Canvas</span>
+              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">HTML5 Canvas Engine</span>
             </div>
           </div>
 
@@ -372,19 +374,19 @@
               <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandBorder flex items-center justify-center text-brandLime text-3xl mb-6 group-hover:scale-110 transition-transform">
                 <i class="fa-solid fa-headset"></i>
               </div>
-              <span class="text-xs uppercase font-extrabold tracking-widest text-brandLime">Pillar B • 50% Execution</span>
+              <span class="text-xs uppercase font-extrabold tracking-widest text-brandLime">Pillar B • 50% Event Operations</span>
               <h3 class="font-display text-2xl md:text-3xl font-extrabold text-brandTextPrimary mt-2 mb-4">
-                Event Organizer, Manager & Coordinator
+                Organizer, Manager & Coordinator
               </h3>
               <p class="text-brandTextMuted text-sm md:text-base leading-relaxed mb-6">
-                Taking complete physical and operational ownership of live events: conceiving stage truss geometry, scheduling line-array audio and DMX intelligent lighting, managing artist riders, overseeing multi-gate attendee flow for 1,200+ audiences, and directing VIP birthday galas.
+                Taking complete operational ownership across three primary event domains: <strong>Live Music Concerts</strong> (trussing, line-array audio, DMX lighting, artist hospitality), <strong>VIP Birthday Bashes</strong> (curated decor themes, custom stages, guest catering), and <strong>Tech/Campus Workshops</strong> (speaker itineraries, registration desks, AV management).
               </p>
             </div>
             <div class="pt-6 border-t border-brandBorder/80 flex flex-wrap gap-2 text-xs font-semibold">
-              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandLime border border-brandBorder">Concert Production</span>
+              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandLime border border-brandBorder">Live Concerts</span>
+              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandPink border border-brandBorder">VIP Birthday Bashes</span>
+              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandAmber border border-brandBorder">Workshops & Seminars</span>
               <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Stage & Set Design</span>
-              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Crowd & Gate Safety</span>
-              <span class="px-3.5 py-1.5 rounded-full bg-brandDark text-brandTextMuted border border-brandBorder">Vendor Coordination</span>
             </div>
           </div>
 
@@ -407,7 +409,7 @@
             </h2>
           </div>
           <p class="text-brandTextMuted max-w-md text-sm md:text-base leading-relaxed">
-            Structured academic progression rooted in Islamabad's top institutions, from high-school discipline to undergraduate computer science.
+            Consistent academic progression through Islamabad's premier institutions, grounding leadership and problem-solving in disciplined computing.
           </p>
         </div>
 
@@ -430,7 +432,7 @@
                 Bachelor of Science in Computer Science (BSCS)
               </h4>
               <p class="text-xs text-brandTextMuted leading-relaxed mb-6">
-                Pursuing comprehensive undergraduate studies in computing. Deep coursework in Software Engineering, Web Development, Object-Oriented Programming, Database Management Systems, Operating Systems, and Data Structures & Algorithms.
+                Active 5th-semester undergraduate studies. Rigorous training in Software Engineering, Web Systems Architecture, Database Management, Object-Oriented Programming, and Data Structures & Algorithms, combined with campus workshop hosting.
               </p>
             </div>
             <div class="space-y-3 pt-4 border-t border-brandBorder/80 text-xs">
@@ -439,7 +441,7 @@
                 <strong class="text-brandTextPrimary">Islamabad, PK</strong>
               </div>
               <div class="flex items-center justify-between text-brandTextMuted">
-                <span>Current Standing:</span>
+                <span>Status:</span>
                 <strong class="text-brandCyan">5th Semester Undergraduate</strong>
               </div>
               <div class="flex flex-wrap gap-1.5 pt-2">
@@ -466,7 +468,7 @@
                 Blue Area Campus, Islamabad
               </h4>
               <p class="text-xs text-brandTextMuted leading-relaxed mb-6">
-                Completed intermediate education focusing on mathematics, pre-engineering, and computer sciences. Developed key analytical rigor, team coordination skills, and early event participation within college societies.
+                Completed intermediate education focusing on mathematics, pre-engineering, and computer science foundations. Developed analytical rigor, group leadership, and early participation in college co-curricular events.
               </p>
             </div>
             <div class="space-y-3 pt-4 border-t border-brandBorder/80 text-xs">
@@ -481,7 +483,7 @@
               <div class="flex flex-wrap gap-1.5 pt-2">
                 <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Mathematics</span>
                 <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Computing Roots</span>
-                <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Campus Activities</span>
+                <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Team Projects</span>
               </div>
             </div>
           </div>
@@ -502,7 +504,7 @@
                 Islamabad Model College for Boys
               </h4>
               <p class="text-xs text-brandTextMuted leading-relaxed mb-6">
-                Foundational schooling at one of Islamabad's reputable model colleges. Built principles of strict personal discipline, public leadership, active curiosity in technology, and teamwork across school events.
+                Foundational schooling at Islamabad's prestigious model institution. Instilled personal discipline, early public speaking, team sports coordination, and scientific problem-solving methods.
               </p>
             </div>
             <div class="space-y-3 pt-4 border-t border-brandBorder/80 text-xs">
@@ -517,7 +519,7 @@
               <div class="flex flex-wrap gap-1.5 pt-2">
                 <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Foundational Science</span>
                 <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Discipline</span>
-                <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Extracurriculars</span>
+                <span class="px-2 py-0.5 rounded bg-brandDark text-[10px] text-brandTextMuted">Leadership</span>
               </div>
             </div>
           </div>
@@ -527,122 +529,222 @@
       </div>
     </section>
 
-    <!-- ==================== 5. TWO MASTER PROJECTS: 50/50 BALANCED SHOWCASE ==================== -->
+    <!-- ==================== 5. PROJECTS & EVENTS SHOWCASE ==================== -->
     <section id="projects" class="py-24 px-6 md:px-12 bg-brandDark border-t border-brandBorder/80 transition-colors duration-300">
       <div class="max-w-7xl mx-auto">
         
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
           <div>
             <span class="text-xs font-extrabold uppercase tracking-widest text-brandLime flex items-center gap-2">
-              <span class="w-2 h-2 rounded-full bg-brandLime"></span> 03. Selected Master Projects
+              <span class="w-2 h-2 rounded-full bg-brandLime"></span> 03. Comprehensive Showcase
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-extrabold text-brandTextPrimary mt-2">
-              The Dual Master Showcase
+              Master Projects & Event Portfolio
             </h2>
           </div>
           <p class="text-brandTextMuted max-w-md text-sm md:text-base leading-relaxed">
-            Two flagship representations: one of deep digital full-stack software architecture, and one of large-scale live concert event production.
+            Direct insight into my execution as an Event Organizer, Manager, and Coordinator across Live Concerts, VIP Birthdays, Tech Workshops, and Web Engineering.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <!-- Filter Chips -->
+        <div class="flex flex-wrap items-center gap-2.5 mb-12">
+          <button onclick="filterProjects('all')" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandCyan text-black" data-filter="all">
+            All Work (4)
+          </button>
+          <button onclick="filterProjects('concert')" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandSurface border border-brandBorder text-brandTextMuted hover:text-brandLime hover:border-brandLime" data-filter="concert">
+            <i class="fa-solid fa-guitar mr-1.5 text-brandLime"></i> Live Concerts
+          </button>
+          <button onclick="filterProjects('birthday')" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandSurface border border-brandBorder text-brandTextMuted hover:text-brandPink hover:border-brandPink" data-filter="birthday">
+            <i class="fa-solid fa-cake-candles mr-1.5 text-brandPink"></i> VIP Birthdays
+          </button>
+          <button onclick="filterProjects('workshop')" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandSurface border border-brandBorder text-brandTextMuted hover:text-brandAmber hover:border-brandAmber" data-filter="workshop">
+            <i class="fa-solid fa-chalkboard-user mr-1.5 text-brandAmber"></i> Tech Workshops
+          </button>
+          <button onclick="filterProjects('web')" class="project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandSurface border border-brandBorder text-brandTextMuted hover:text-brandCyan hover:border-brandCyan" data-filter="web">
+            <i class="fa-solid fa-code mr-1.5 text-brandCyan"></i> CS Web Dev
+          </button>
+        </div>
+
+        <!-- 4 Major Project Cards -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8" id="projectsGrid">
           
-          <!-- MASTER PROJECT 1: THIS PORTFOLIO WEBSITE -->
-          <div class="bg-brandSurface rounded-3xl border border-brandBorder p-8 md:p-10 hover:border-brandCyan transition-all flex flex-col justify-between shadow-2xl group">
+          <!-- PROJECT 1: THE GRAND PULSE LIVE CONCERT -->
+          <div class="project-item bg-brandSurface rounded-3xl border border-brandBorder p-7 md:p-9 hover:border-brandLime transition-all flex flex-col justify-between shadow-2xl group" data-category="concert">
             <div>
-              <!-- Project Visual Preview Header -->
-              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-8 flex items-center justify-center p-6">
-                <div class="absolute inset-0 bg-gradient-to-t from-brandSurface via-black/40 to-transparent z-10"></div>
-                <div class="text-center z-20 group-hover:scale-105 transition-transform duration-500">
-                  <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandCyan/50 flex items-center justify-center text-brandCyan text-2xl mx-auto mb-3 shadow-lg shadow-brandCyan/20">
-                    <i class="fa-solid fa-code"></i>
-                  </div>
-                  <h4 class="font-display font-extrabold text-white text-xl">Hammas Ahmed — Portfolio Architecture</h4>
-                  <p class="text-xs text-brandCyan font-semibold mt-1">Full-Stack Web Development & Interactive UI</p>
-                </div>
-                <span class="absolute top-4 left-4 z-20 px-3 py-1 rounded-full bg-brandDark/90 backdrop-blur-md text-[10px] font-extrabold text-brandCyan border border-brandBorder uppercase tracking-wider">
-                  SOFTWARE ENGINEERING
-                </span>
-                <span class="absolute top-4 right-4 z-20 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">
-                  ACTIVE BUILD
-                </span>
-              </div>
-
-              <!-- Content Breakdown -->
-              <h3 class="font-display font-extrabold text-2xl md:text-3xl text-brandTextPrimary group-hover:text-brandCyan transition-colors">
-                Multidisciplinary Portfolio Architecture
-              </h3>
-              <p class="text-sm text-brandTextMuted leading-relaxed mt-4 mb-6">
-                Engineered from the ground up as a bespoke single-page web application. Features a custom vanilla HTML5 Canvas quantum particle physics simulation, interactive theme engine (Dark/Light mode), dynamic typewriter headline loops, modal controllers, and direct WhatsApp lead conversion. Built with clean DOM trees, high accessibility, and zero bulky framework dependencies.
-              </p>
-
-              <!-- Tech Stack Tags -->
-              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-8">
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">HTML5 Semantic Web</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">CSS3 / Tailwind</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">Vanilla JS (ES6+)</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">HTML5 Canvas Physics</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">Dual Theme Engine</span>
-              </div>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="flex items-center gap-3 pt-6 border-t border-brandBorder/80">
-              <button onclick="openModal('project_web')" class="flex-1 py-3.5 rounded-xl bg-brandCyan text-black font-extrabold text-xs tracking-wider uppercase hover:bg-[#3bf8ff] transition-all text-center">
-                Technical Case Study
-              </button>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary hover:text-brandCyan transition-all text-xs font-bold flex items-center gap-2">
-                <i class="fa-brands fa-github text-sm"></i> Code
-              </a>
-            </div>
-          </div>
-
-          <!-- MASTER PROJECT 2: THE GRAND PULSE LIVE CONCERT & EVENT -->
-          <div class="bg-brandSurface rounded-3xl border border-brandBorder p-8 md:p-10 hover:border-brandLime transition-all flex flex-col justify-between shadow-2xl group">
-            <div>
-              <!-- Project Visual Preview Header -->
-              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-8 flex items-center justify-center p-6">
+              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-6 flex items-center justify-center p-6">
                 <div class="absolute inset-0 bg-gradient-to-t from-brandSurface via-black/40 to-transparent z-10"></div>
                 <div class="text-center z-20 group-hover:scale-105 transition-transform duration-500">
                   <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandLime/50 flex items-center justify-center text-brandLime text-2xl mx-auto mb-3 shadow-lg shadow-brandLime/20">
                     <i class="fa-solid fa-guitar"></i>
                   </div>
-                  <h4 class="font-display font-extrabold text-white text-xl">The Grand Pulse: Live Concert Execution</h4>
-                  <p class="text-xs text-brandLime font-semibold mt-1">Concert Management, Stage Design & Gate Control</p>
+                  <h4 class="font-display font-extrabold text-white text-xl">The Grand Pulse: Live Concert</h4>
+                  <p class="text-xs text-brandLime font-semibold mt-1">Concert Management • Stage Truss Rigging • 1,200+ Footfall</p>
                 </div>
                 <span class="absolute top-4 left-4 z-20 px-3 py-1 rounded-full bg-brandDark/90 backdrop-blur-md text-[10px] font-extrabold text-brandLime border border-brandBorder uppercase tracking-wider">
-                  EVENT MANAGEMENT
+                  CONCERT PRODUCTION
                 </span>
                 <span class="absolute top-4 right-4 z-20 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-white border border-brandBorder text-[10px] font-bold">
-                  <i class="fa-solid fa-users mr-1 text-brandLime"></i> 1,200+ Footfall
+                  <i class="fa-solid fa-users mr-1 text-brandLime"></i> 1,200+ Attendees
                 </span>
               </div>
 
-              <!-- Content Breakdown -->
-              <h3 class="font-display font-extrabold text-2xl md:text-3xl text-brandTextPrimary group-hover:text-brandLime transition-colors">
-                The Grand Pulse: Live Concert & Music Festival
+              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary group-hover:text-brandLime transition-colors">
+                The Grand Pulse: Live Music Festival
               </h3>
-              <p class="text-sm text-brandTextMuted leading-relaxed mt-4 mb-6">
-                Comprehensive end-to-end event direction for a premier youth live music festival in Islamabad. Full accountability for conceiving the stage set design, heavy aluminum trussing rigging, line-array audio staging, DMX intelligent strobe and beam programming, security protocol for 1,200+ attendees, artist rider coordination, and on-time execution with zero incidents.
+              <p class="text-sm text-brandTextMuted leading-relaxed mt-3 mb-6">
+                End-to-end event direction for a premier youth concert in Islamabad. Engineered box truss geometry, oversaw line-array audio tuning, programmed DMX moving heads and atmospheric haze, and coordinated artist backstage hospitality with multi-corridor crowd safety for over 1,200 attendees.
               </p>
 
-              <!-- Role & Metrics Tags -->
-              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-8">
+              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-6">
                 <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Role: Lead Event Organizer</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Stage & Set Designer</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">1,200+ Attendees</span>
-                <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Islamabad Venue</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Stage & Set Design</span>
                 <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Crowd & Gate Security</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandLime border border-brandBorder">Sound Engineering Sync</span>
               </div>
             </div>
 
-            <!-- Action Buttons -->
-            <div class="flex items-center gap-3 pt-6 border-t border-brandBorder/80">
-              <button onclick="openModal('project_event')" class="flex-1 py-3.5 rounded-xl bg-brandLime text-black font-extrabold text-xs tracking-wider uppercase hover:bg-[#c9ff38] transition-all text-center">
-                View Event Blueprint & Case Study
+            <div class="flex items-center gap-3 pt-5 border-t border-brandBorder/80">
+              <button onclick="openModal('project_concert')" class="flex-1 py-3.5 rounded-xl bg-brandLime text-black font-extrabold text-xs tracking-wider uppercase hover:bg-[#cbfb40] transition-all text-center">
+                View Concert Case Study
               </button>
-              <a href="https://wa.me/923125771381?text=Hi%20Hammas,%20I'm%20interested%20in%20hiring%20you%20as%20an%20Event%20Organizer/Manager!" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary hover:text-brandLime transition-all text-xs font-bold flex items-center gap-2">
-                <i class="fa-brands fa-whatsapp text-sm text-[#25D366]"></i> Book Event
+              <a href="https://wa.me/923125771381?text=Hi%20Hammas,%20I'm%20looking%20to%20organize%20a%20Concert/Live%20Show!" target="_blank" rel="noopener noreferrer" class="px-4 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-[#25D366] hover:bg-[#25D366] hover:text-black transition-all text-xs font-bold flex items-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> Book
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: PRESTIGE VIP BIRTHDAY BASH & MILESTONE CELEBRATION -->
+          <div class="project-item bg-brandSurface rounded-3xl border border-brandBorder p-7 md:p-9 hover:border-brandPink transition-all flex flex-col justify-between shadow-2xl group" data-category="birthday">
+            <div>
+              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-6 flex items-center justify-center p-6">
+                <div class="absolute inset-0 bg-gradient-to-t from-brandSurface via-black/40 to-transparent z-10"></div>
+                <div class="text-center z-20 group-hover:scale-105 transition-transform duration-500">
+                  <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandPink/50 flex items-center justify-center text-brandPink text-2xl mx-auto mb-3 shadow-lg shadow-brandPink/20">
+                    <i class="fa-solid fa-cake-candles"></i>
+                  </div>
+                  <h4 class="font-display font-extrabold text-white text-xl">Prestige Milestone & VIP Birthday</h4>
+                  <p class="text-xs text-brandPink font-semibold mt-1">Bespoke Decor • Cake Stage Architecture • 250+ VIP Guests</p>
+                </div>
+                <span class="absolute top-4 left-4 z-20 px-3 py-1 rounded-full bg-brandDark/90 backdrop-blur-md text-[10px] font-extrabold text-brandPink border border-brandBorder uppercase tracking-wider">
+                  MILESTONE CELEBRATION
+                </span>
+                <span class="absolute top-4 right-4 z-20 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-white border border-brandBorder text-[10px] font-bold">
+                  <i class="fa-solid fa-crown mr-1 text-brandPink"></i> VIP Private Gala
+                </span>
+              </div>
+
+              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary group-hover:text-brandPink transition-colors">
+                Prestige Milestone & VIP Birthday Gala
+              </h3>
+              <p class="text-sm text-brandTextMuted leading-relaxed mt-3 mb-6">
+                Conceptualized and executed a high-end luxury milestone birthday event. Designed customized floral & neon stage backdrop aesthetics, synchronized custom cold-pyro fountains with the cake-cutting moment, curated ambient acoustics, and managed VIP hospitality, catering flow, and private guest coordination.
+              </p>
+
+              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-6">
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandPink border border-brandBorder">Role: Event Manager & Designer</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandPink border border-brandBorder">Bespoke Stage & Decor</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandPink border border-brandBorder">Cold-Pyro Cake Cue</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandPink border border-brandBorder">Guest Concierge</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 pt-5 border-t border-brandBorder/80">
+              <button onclick="openModal('project_birthday')" class="flex-1 py-3.5 rounded-xl bg-brandPink text-white font-extrabold text-xs tracking-wider uppercase hover:bg-[#ff4aa2] transition-all text-center">
+                View Birthday Blueprint
+              </button>
+              <a href="https://wa.me/923125771381?text=Hi%20Hammas,%20I%20would%20like%20to%20plan%20a%20Birthday/Milestone%20Celebration!" target="_blank" rel="noopener noreferrer" class="px-4 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-[#25D366] hover:bg-[#25D366] hover:text-black transition-all text-xs font-bold flex items-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> Book
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: TECH & CAMPUS WORKSHOPS / SEMINARS -->
+          <div class="project-item bg-brandSurface rounded-3xl border border-brandBorder p-7 md:p-9 hover:border-brandAmber transition-all flex flex-col justify-between shadow-2xl group" data-category="workshop">
+            <div>
+              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-6 flex items-center justify-center p-6">
+                <div class="absolute inset-0 bg-gradient-to-t from-brandSurface via-black/40 to-transparent z-10"></div>
+                <div class="text-center z-20 group-hover:scale-105 transition-transform duration-500">
+                  <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandAmber/50 flex items-center justify-center text-brandAmber text-2xl mx-auto mb-3 shadow-lg shadow-brandAmber/20">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                  </div>
+                  <h4 class="font-display font-extrabold text-white text-xl">SZABIST Tech Workshop & Seminar</h4>
+                  <p class="text-xs text-brandAmber font-semibold mt-1">Speaker Itineraries • AV Projection • Attendee Registrations</p>
+                </div>
+                <span class="absolute top-4 left-4 z-20 px-3 py-1 rounded-full bg-brandDark/90 backdrop-blur-md text-[10px] font-extrabold text-brandAmber border border-brandBorder uppercase tracking-wider">
+                  CAMPUS & ACADEMIC
+                </span>
+                <span class="absolute top-4 right-4 z-20 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-white border border-brandBorder text-[10px] font-bold">
+                  <i class="fa-solid fa-certificate mr-1 text-brandAmber"></i> 300+ Students
+                </span>
+              </div>
+
+              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary group-hover:text-brandAmber transition-colors">
+                SZABIST Tech Workshops & Seminars
+              </h3>
+              <p class="text-sm text-brandTextMuted leading-relaxed mt-3 mb-6">
+                Organized and coordinated dynamic academic and technical workshop sessions at SZABIST Islamabad. Managed multi-screen projection mapping, lapel/roving microphone acoustics, digital QR attendee check-ins, guest speaker hospitality, and interactive Q&A floor coordination.
+              </p>
+
+              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-6">
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandAmber border border-brandBorder">Role: Workshop Coordinator</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandAmber border border-brandBorder">Speaker Logistics</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandAmber border border-brandBorder">AV & Tech Staging</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandAmber border border-brandBorder">Digital Registration Desk</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 pt-5 border-t border-brandBorder/80">
+              <button onclick="openModal('project_workshop')" class="flex-1 py-3.5 rounded-xl bg-brandAmber text-black font-extrabold text-xs tracking-wider uppercase hover:bg-[#ffc526] transition-all text-center">
+                View Workshop Case Study
+              </button>
+              <a href="https://wa.me/923125771381?text=Hi%20Hammas,%20I%20want%20to%20collaborate%20on%20a%20Workshop/Seminar!" target="_blank" rel="noopener noreferrer" class="px-4 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-[#25D366] hover:bg-[#25D366] hover:text-black transition-all text-xs font-bold flex items-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-sm"></i> Book
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: CS WEB DEV PORTFOLIO ARCHITECTURE -->
+          <div class="project-item bg-brandSurface rounded-3xl border border-brandBorder p-7 md:p-9 hover:border-brandCyan transition-all flex flex-col justify-between shadow-2xl group" data-category="web">
+            <div>
+              <div class="relative aspect-[16/10] rounded-2xl bg-black border border-brandBorder overflow-hidden mb-6 flex items-center justify-center p-6">
+                <div class="absolute inset-0 bg-gradient-to-t from-brandSurface via-black/40 to-transparent z-10"></div>
+                <div class="text-center z-20 group-hover:scale-105 transition-transform duration-500">
+                  <div class="w-16 h-16 rounded-2xl bg-brandDark border border-brandCyan/50 flex items-center justify-center text-brandCyan text-2xl mx-auto mb-3 shadow-lg shadow-brandCyan/20">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <h4 class="font-display font-extrabold text-white text-xl">Hammas Ahmed — Portfolio System</h4>
+                  <p class="text-xs text-brandCyan font-semibold mt-1">Full-Stack Architecture • Quantum Canvas • Theme Engine</p>
+                </div>
+                <span class="absolute top-4 left-4 z-20 px-3 py-1 rounded-full bg-brandDark/90 backdrop-blur-md text-[10px] font-extrabold text-brandCyan border border-brandBorder uppercase tracking-wider">
+                  SOFTWARE ENGINEERING
+                </span>
+                <span class="absolute top-4 right-4 z-20 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">
+                  ACTIVE DEPLOYMENT
+                </span>
+              </div>
+
+              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary group-hover:text-brandCyan transition-colors">
+                Multidisciplinary Portfolio Architecture
+              </h3>
+              <p class="text-sm text-brandTextMuted leading-relaxed mt-3 mb-6">
+                Engineered as a single-page web application using pure HTML5 semantic markup, modern responsive CSS/Tailwind, and modular JavaScript. Features a customized 2D Canvas quantum particle physics engine with cursor repulsion, theme management, and direct WhatsApp payload serialization.
+              </p>
+
+              <div class="flex flex-wrap gap-2 text-xs font-semibold mb-6">
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">HTML5 Semantic Web</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">CSS3 & Tailwind</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">JavaScript ES6+</span>
+                <span class="px-3 py-1 rounded-full bg-brandDark text-brandCyan border border-brandBorder">Canvas Particle Physics</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 pt-5 border-t border-brandBorder/80">
+              <button onclick="openModal('project_web')" class="flex-1 py-3.5 rounded-xl bg-brandCyan text-black font-extrabold text-xs tracking-wider uppercase hover:bg-[#3af8ff] transition-all text-center">
+                Technical Architecture
+              </button>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-4 py-3.5 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary hover:text-brandCyan transition-all text-xs font-bold flex items-center gap-1.5">
+                <i class="fa-brands fa-github text-sm"></i> Code
               </a>
             </div>
           </div>
@@ -751,14 +853,14 @@
               </div>
               <div>
                 <h3 class="font-display font-extrabold text-xl text-brandTextPrimary">Event Management & Coordination</h3>
-                <p class="text-xs text-brandTextMuted">Concerts, Stages, Celebrations, Logistics & Security</p>
+                <p class="text-xs text-brandTextMuted">Concerts, Birthdays, Workshops, Logistics & Safety</p>
               </div>
             </div>
 
             <div class="space-y-5">
               <div>
                 <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                  <span class="text-brandTextPrimary">Live Concert Production & Headliner Coordination</span>
+                  <span class="text-brandTextPrimary">Live Concert Production & Headliner Artist Coordination</span>
                   <span class="text-brandLime">96%</span>
                 </div>
                 <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
@@ -768,7 +870,7 @@
 
               <div>
                 <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                  <span class="text-brandTextPrimary">Stage & Set Design (Truss Architecture & Lighting Placement)</span>
+                  <span class="text-brandTextPrimary">Stage & Set Design (Truss Architecture & Intelligent Lights)</span>
                   <span class="text-brandLime">95%</span>
                 </div>
                 <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
@@ -778,31 +880,31 @@
 
               <div>
                 <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                  <span class="text-brandTextPrimary">Milestone Birthday & Private VIP Event Organizing</span>
+                  <span class="text-brandTextPrimary">Milestone Birthday Bashes & VIP Hospitality Coordination</span>
+                  <span class="text-brandPink">94%</span>
+                </div>
+                <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
+                  <div class="h-full bg-brandPink rounded-full" style="width: 94%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between items-center text-xs font-bold mb-1.5">
+                  <span class="text-brandTextPrimary">Workshops, Seminars & Campus Academic Logistics</span>
+                  <span class="text-brandAmber">93%</span>
+                </div>
+                <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
+                  <div class="h-full bg-brandAmber rounded-full" style="width: 93%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between items-center text-xs font-bold mb-1.5">
+                  <span class="text-brandTextPrimary">Crowd Flow, Gate Safety & Multi-Gate QR Ticketing</span>
                   <span class="text-brandLime">92%</span>
                 </div>
                 <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
                   <div class="h-full bg-brandLime rounded-full" style="width: 92%"></div>
-                </div>
-              </div>
-
-              <div>
-                <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                  <span class="text-brandTextPrimary">Crowd Control, Barricade Layout & Multi-Gate Ticketing</span>
-                  <span class="text-brandLime">94%</span>
-                </div>
-                <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
-                  <div class="h-full bg-brandLime rounded-full" style="width: 94%"></div>
-                </div>
-              </div>
-
-              <div>
-                <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                  <span class="text-brandTextPrimary">Sound Engineers & DMX Lighting Crew Direction</span>
-                  <span class="text-brandLime">90%</span>
-                </div>
-                <div class="w-full h-2 rounded-full bg-brandDark overflow-hidden">
-                  <div class="h-full bg-brandLime rounded-full" style="width: 90%"></div>
                 </div>
               </div>
 
@@ -834,10 +936,10 @@
             <div>
               <span class="text-xs font-extrabold uppercase tracking-widest text-brandCyan">05. Connect & Book</span>
               <h2 class="font-display text-4xl md:text-5xl font-extrabold text-brandTextPrimary mt-2 mb-6">
-                Let's Execute Your Next Big Project.
+                Let's Execute Your Next Major Event or Build.
               </h2>
               <p class="text-brandTextMuted text-base leading-relaxed mb-8">
-                Planning a live concert, institutional event, private milestone celebration, or looking for a dedicated Computer Science collaborator? Get in touch directly.
+                Planning a live concert, VIP milestone birthday celebration, institutional tech workshop at SZABIST/campuses, or a web project? Reach out directly via WhatsApp or email.
               </p>
 
               <!-- Direct Channels -->
@@ -848,7 +950,7 @@
                     <i class="fa-brands fa-whatsapp"></i>
                   </div>
                   <div>
-                    <span class="text-xs text-brandTextMuted font-semibold uppercase">WhatsApp (Fastest Response)</span>
+                    <span class="text-xs text-brandTextMuted font-semibold uppercase">Direct WhatsApp (Fastest Response)</span>
                     <h4 class="font-bold text-brandTextPrimary text-base group-hover:text-[#25D366] transition-colors">0312 5771381</h4>
                   </div>
                 </a>
@@ -884,7 +986,7 @@
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="w-11 h-11 rounded-xl bg-brandSurface border border-brandBorder hover:border-brandCyan text-brandTextPrimary hover:text-brandCyan flex items-center justify-center transition-all">
                   <i class="fa-brands fa-github text-base"></i>
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-11 h-11 rounded-xl bg-brandSurface border border-brandBorder hover:border-brandLime text-brandTextPrimary hover:text-brandLime flex items-center justify-center transition-all">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-11 h-11 rounded-xl bg-brandSurface border border-brandBorder hover:border-brandPink text-brandTextPrimary hover:text-brandPink flex items-center justify-center transition-all">
                   <i class="fa-brands fa-instagram text-base"></i>
                 </a>
               </div>
@@ -898,31 +1000,31 @@
           <!-- Right Column: Interactive Booking Form -->
           <div class="lg:col-span-7">
             <div class="bg-brandSurface rounded-3xl border border-brandBorder p-8 md:p-10 shadow-2xl relative">
-              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary mb-2">Send an Event or Project Inquiry</h3>
-              <p class="text-xs text-brandTextMuted mb-6">Select the scope of collaboration and your information will be structured directly for Hammas.</p>
+              <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary mb-2">Book an Event or Project</h3>
+              <p class="text-xs text-brandTextMuted mb-6">Select the scope of collaboration and your request will be instantly formatted for Hammas.</p>
 
               <form id="inquiryForm" onsubmit="handleInquirySubmit(event)" class="space-y-5">
                 
                 <!-- Inquiry Chips -->
                 <div>
                   <label class="block text-xs font-bold text-brandTextPrimary uppercase tracking-wider mb-2.5">
-                    What are you looking to organize or build?
+                    What are you looking to organize or coordinate?
                   </label>
                   <div class="flex flex-wrap gap-2">
-                    <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandCyan transition-all">
-                      <i class="fa-solid fa-guitar mr-1"></i> Concert Directing
-                    </button>
                     <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandLime transition-all">
-                      <i class="fa-solid fa-shapes mr-1"></i> Stage & Set Design
+                      <i class="fa-solid fa-guitar mr-1 text-brandLime"></i> Concert Directing
+                    </button>
+                    <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandPink transition-all">
+                      <i class="fa-solid fa-cake-candles mr-1 text-brandPink"></i> VIP Birthday Bash
+                    </button>
+                    <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandAmber transition-all">
+                      <i class="fa-solid fa-chalkboard-user mr-1 text-brandAmber"></i> Workshop / Seminar
                     </button>
                     <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandCyan transition-all">
-                      <i class="fa-solid fa-cake-candles mr-1"></i> Birthday Event
-                    </button>
-                    <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandLime transition-all">
-                      <i class="fa-solid fa-code mr-1"></i> Web Development
+                      <i class="fa-solid fa-shapes mr-1 text-brandCyan"></i> Stage & Set Design
                     </button>
                     <button type="button" onclick="toggleServiceChip(this)" class="service-chip px-3.5 py-2 rounded-xl bg-brandDark border border-brandBorder text-xs font-semibold text-brandTextMuted hover:border-brandCyan transition-all">
-                      <i class="fa-solid fa-users mr-1"></i> Campus / Festival
+                      <i class="fa-solid fa-code mr-1 text-brandCyan"></i> Web Development
                     </button>
                   </div>
                 </div>
@@ -941,14 +1043,14 @@
 
                 <!-- Event Date / Timeline -->
                 <div>
-                  <label class="block text-xs font-bold text-brandTextPrimary uppercase tracking-wider mb-1.5">Target Event Date or Project Deadline</label>
-                  <input type="text" id="clientDate" placeholder="e.g. Next Month or Specific Event Date" class="w-full px-4 py-3 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary placeholder-brandTextMuted/50 text-sm focus:outline-none focus:border-brandCyan transition-colors">
+                  <label class="block text-xs font-bold text-brandTextPrimary uppercase tracking-wider mb-1.5">Target Date or Deadline</label>
+                  <input type="text" id="clientDate" placeholder="e.g. Upcoming Weekend or Specific Event Date" class="w-full px-4 py-3 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary placeholder-brandTextMuted/50 text-sm focus:outline-none focus:border-brandCyan transition-colors">
                 </div>
 
                 <!-- Scope Details -->
                 <div>
-                  <label class="block text-xs font-bold text-brandTextPrimary uppercase tracking-wider mb-1.5">Requirements & Scope</label>
-                  <textarea id="clientScope" rows="4" required placeholder="Describe expected crowd, stage setup, venue details, or technical scope..." class="w-full px-4 py-3 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary placeholder-brandTextMuted/50 text-sm focus:outline-none focus:border-brandCyan transition-colors resize-none"></textarea>
+                  <label class="block text-xs font-bold text-brandTextPrimary uppercase tracking-wider mb-1.5">Event or Project Scope</label>
+                  <textarea id="clientScope" rows="4" required placeholder="Describe venue location, expected guest count, stage preferences, or technical specs..." class="w-full px-4 py-3 rounded-xl bg-brandDark border border-brandBorder text-brandTextPrimary placeholder-brandTextMuted/50 text-sm focus:outline-none focus:border-brandCyan transition-colors resize-none"></textarea>
                 </div>
 
                 <!-- Submit Button -->
@@ -977,14 +1079,14 @@
           </div>
           <div>
             <span class="font-display font-bold text-sm text-brandTextPrimary">HAMMAS AHMED</span>
-            <p class="text-[11px] text-brandTextMuted">Event Organizer, Manager & Coordinator • CS 5th Sem @ SZABIST ISB</p>
+            <p class="text-[11px] text-brandTextMuted">Event Organizer, Manager & Coordinator • BSCS 5th Sem @ SZABIST ISB</p>
           </div>
         </div>
 
         <div class="flex items-center gap-6 text-xs text-brandTextMuted font-medium">
           <a href="#about" class="hover:text-brandCyan transition-colors">Overview</a>
           <a href="#education" class="hover:text-brandCyan transition-colors">Education</a>
-          <a href="#projects" class="hover:text-brandCyan transition-colors">Projects</a>
+          <a href="#projects" class="hover:text-brandCyan transition-colors">Events & Projects</a>
           <a href="#skills" class="hover:text-brandCyan transition-colors">Skills</a>
           <a href="#contact" class="hover:text-brandCyan transition-colors">Contact</a>
         </div>
@@ -1019,7 +1121,7 @@
   <!-- ==================== JAVASCRIPT LOGIC ==================== -->
   <script>
     /* ----------------------------------------------------
-       1. UPGRADED QUANTUM PARTICLES CANVAS (CYAN / LIME THEME)
+       1. QUANTUM PARTICLES CANVAS (CYAN & LIME THEME)
     ---------------------------------------------------- */
     const canvas = document.getElementById('quantum-canvas');
     const ctx = canvas.getContext('2d');
@@ -1129,10 +1231,10 @@
     ---------------------------------------------------- */
     const textElement = document.getElementById('typewriter-text');
     const phrases = [
-      "Organizing Massive Live Concerts.",
-      "Architecting Clean Web Experiences.",
-      "Coordinating Seamless Festivals & Events.",
-      "Designing Immersive Stages & Experiences."
+      "Organizing High-Energy Live Concerts.",
+      "Curating VIP Birthday & Milestone Bashes.",
+      "Managing Tech & Academic Workshops.",
+      "Architecting Clean Web Experiences."
     ];
     let phraseIndex = 0;
     let charIndex = 0;
@@ -1166,7 +1268,7 @@
     setTimeout(typewriterTick, 500);
 
     /* ----------------------------------------------------
-       3. FUNCTIONAL DARK / LIGHT THEME SWITCHER
+       3. DARK / LIGHT THEME TOGGLE
     ---------------------------------------------------- */
     const themeBtn = document.getElementById('themeToggleBtn');
     const themeIcon = document.getElementById('themeIcon');
@@ -1219,46 +1321,108 @@
     });
 
     /* ----------------------------------------------------
-       6. MODAL DETAILS CONTROLLER (THE TWO MASTER PROJECTS)
+       6. PROJECT & EVENT FILTERING LOGIC
+    ---------------------------------------------------- */
+    function filterProjects(category) {
+      // Update button styling
+      document.querySelectorAll('.project-filter-btn').forEach(btn => {
+        if (btn.getAttribute('data-filter') === category) {
+          btn.className = "project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandCyan text-black";
+        } else {
+          btn.className = "project-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all bg-brandSurface border border-brandBorder text-brandTextMuted hover:border-brandCyan";
+        }
+      });
+
+      // Filter project cards
+      const items = document.querySelectorAll('.project-item');
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    }
+
+    /* ----------------------------------------------------
+       7. MODAL DETAILS CONTROLLER (CONCERTS, BIRTHDAYS, WORKSHOPS, WEB)
     ---------------------------------------------------- */
     const detailModal = document.getElementById('detailModal');
     const modalBody = document.getElementById('modalBody');
 
     function openModal(type) {
-      if (type === 'project_web') {
+      if (type === 'project_concert') {
         modalBody.innerHTML = `
           <div class="space-y-4">
-            <span class="text-xs font-bold text-brandCyan uppercase tracking-wider">Master Project 01 • Web Engineering</span>
-            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">Multidisciplinary Portfolio Architecture</h3>
+            <span class="text-xs font-bold text-brandLime uppercase tracking-wider">Event Case Study 01 • Live Concert</span>
+            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">The Grand Pulse: Live Concert Execution</h3>
             <p class="text-sm text-brandTextMuted leading-relaxed">
-              <strong>Objective:</strong> Engineer a hyper-performant, responsive web application for Hammas Ahmed that balances Computer Science engineering with physical live event management.
+              <strong>Objective:</strong> Direct the entire operational lifecycle, stage truss rigging, sound engineer coordination, and attendee safety for a 1,200+ live crowd in Islamabad.
             </p>
             <div class="bg-brandDark p-5 rounded-2xl border border-brandBorder space-y-3 text-xs">
-              <div><strong class="text-brandTextPrimary">Architecture:</strong> Clean single-page application built with zero heavy frameworks, sub-100ms first paint, and complete mobile responsiveness.</div>
-              <div><strong class="text-brandTextPrimary">Canvas Simulation:</strong> Interactive quantum particles calculated using vanilla JavaScript trigonometry and proximity algorithms.</div>
-              <div><strong class="text-brandTextPrimary">Direct Connectivity:</strong> Custom form serialization routing leads directly into WhatsApp with pre-structured payloads.</div>
+              <div><strong class="text-brandTextPrimary">Responsibilities:</strong> Lead Event Organizer, Stage Coordinator & Crowd Director.</div>
+              <div><strong class="text-brandTextPrimary">Technical Rig:</strong> Heavy-duty aluminum box trussing, line-array acoustics, DMX intelligent beam lighting, and timed low-lying CO2 fog effects.</div>
+              <div><strong class="text-brandTextPrimary">Crowd & Gate Safety:</strong> Multi-tiered barricaded entry corridors, digital QR scanning, dedicated security marshals, and VIP artist green-room coordination.</div>
+              <div><strong class="text-brandTextPrimary">Outcome:</strong> Zero security breaches, exact on-schedule artist performance slots, and exceptional attendee satisfaction.</div>
             </div>
-            <div class="p-3 bg-brandCyan/10 border border-brandCyan/30 rounded-xl text-xs text-brandCyan font-semibold">
-              <i class="fa-solid fa-code mr-1.5"></i> Cleanly architected and version controlled on GitHub.
+            <div class="p-3 bg-brandLime/10 border border-brandLime/30 rounded-xl text-xs text-brandLime font-semibold">
+              <i class="fa-solid fa-guitar mr-1.5"></i> Direct coordination with sound technicians, lighting crews, and security teams.
             </div>
           </div>
         `;
-      } else if (type === 'project_event') {
+      } else if (type === 'project_birthday') {
         modalBody.innerHTML = `
           <div class="space-y-4">
-            <span class="text-xs font-bold text-brandLime uppercase tracking-wider">Master Project 02 • Event Production</span>
-            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">The Grand Pulse: Live Concert Execution</h3>
+            <span class="text-xs font-bold text-brandPink uppercase tracking-wider">Event Case Study 02 • Milestone Celebration</span>
+            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">Prestige Milestone & VIP Birthday Gala</h3>
             <p class="text-sm text-brandTextMuted leading-relaxed">
-              <strong>Objective:</strong> Lead complete event management, stage & set design, audio-visual technical direction, and multi-tier security for 1,200+ concert attendees in Islamabad.
+              <strong>Objective:</strong> Conceive, design, and orchestrate an exclusive VIP birthday celebration for 250+ private guests with high aesthetic appeal and seamless event flow.
             </p>
             <div class="bg-brandDark p-5 rounded-2xl border border-brandBorder space-y-3 text-xs">
-              <div><strong class="text-brandTextPrimary">Role:</strong> Lead Event Organizer, Stage Coordinator & Crowd Director.</div>
-              <div><strong class="text-brandTextPrimary">Technical Rig:</strong> Engineered box trussing layout, line-array audio placement, DMX intelligent beam lighting, and timed low-fog effects.</div>
-              <div><strong class="text-brandTextPrimary">Gate & Crowd Flow:</strong> Barricaded entry corridors with QR digital verification, medical station routing, and backstage hospitality for performing artists.</div>
-              <div><strong class="text-brandTextPrimary">Outcome:</strong> 100% on-time stage schedule, zero safety incidents, and rave reviews from both performing artists and guests.</div>
+              <div><strong class="text-brandTextPrimary">Responsibilities:</strong> Theme Conceptualizer, Stage Designer, Vendor Manager & Guest Host.</div>
+              <div><strong class="text-brandTextPrimary">Decor & Stagecraft:</strong> Bespoke custom acrylic neon backdrop, mood-tailored ambient uplighting, personalized cake-cutting stage, and photo-op installations.</div>
+              <div><strong class="text-brandTextPrimary">Special Cues:</strong> Synchronized musical drop with remote-triggered cold-pyro spark machines during the cake-cutting reveal.</div>
+              <div><strong class="text-brandTextPrimary">Hospitality:</strong> Managed high-end catering logistics, dessert bar flow, and personalized guest seating layouts.</div>
             </div>
-            <div class="p-3 bg-brandLime/10 border border-brandLime/30 rounded-xl text-xs text-brandLime font-semibold">
-              <i class="fa-solid fa-bullhorn mr-1.5"></i> Direct coordination with Islamabad equipment vendors and logistics crews.
+            <div class="p-3 bg-brandPink/10 border border-brandPink/30 rounded-xl text-xs text-brandPink font-semibold">
+              <i class="fa-solid fa-cake-candles mr-1.5"></i> Tailored timeline management ensuring every memorable moment lands on schedule.
+            </div>
+          </div>
+        `;
+      } else if (type === 'project_workshop') {
+        modalBody.innerHTML = `
+          <div class="space-y-4">
+            <span class="text-xs font-bold text-brandAmber uppercase tracking-wider">Event Case Study 03 • Workshops & Academic</span>
+            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">SZABIST Tech Workshops & Seminars</h3>
+            <p class="text-sm text-brandTextMuted leading-relaxed">
+              <strong>Objective:</strong> Plan and coordinate structured technical seminars and hands-on workshops hosting 300+ students, faculty members, and guest industry speakers.
+            </p>
+            <div class="bg-brandDark p-5 rounded-2xl border border-brandBorder space-y-3 text-xs">
+              <div><strong class="text-brandTextPrimary">Responsibilities:</strong> Event Coordinator, Technical Floor Lead & Speaker Liaison.</div>
+              <div><strong class="text-brandTextPrimary">AV & Projection:</strong> Managed dual-projection systems, slide-deck sync, roving lapel microphones, and live audio feeds.</div>
+              <div><strong class="text-brandTextPrimary">Registration Systems:</strong> Coordinated the front registration desk with pre-event Google Form registrations, attendee verification, and digital certificate issuing.</div>
+              <div><strong class="text-brandTextPrimary">Speaker Itinerary:</strong> Managed campus protocol, speaker welcoming, stage cue cards, and interactive 20-minute floor Q&A sessions.</div>
+            </div>
+            <div class="p-3 bg-brandAmber/10 border border-brandAmber/30 rounded-xl text-xs text-brandAmber font-semibold">
+              <i class="fa-solid fa-chalkboard-user mr-1.5"></i> Bridging academic computing knowledge with practical event coordination.
+            </div>
+          </div>
+        `;
+      } else if (type === 'project_web') {
+        modalBody.innerHTML = `
+          <div class="space-y-4">
+            <span class="text-xs font-bold text-brandCyan uppercase tracking-wider">Master Project 04 • Web Engineering</span>
+            <h3 class="font-display font-extrabold text-2xl text-brandTextPrimary">Multidisciplinary Portfolio Architecture</h3>
+            <p class="text-sm text-brandTextMuted leading-relaxed">
+              <strong>Objective:</strong> Engineer a performant, responsive web application for Hammas Ahmed that balances Computer Science engineering with physical live event management.
+            </p>
+            <div class="bg-brandDark p-5 rounded-2xl border border-brandBorder space-y-3 text-xs">
+              <div><strong class="text-brandTextPrimary">Architecture:</strong> Clean single-page application built with semantic HTML5, zero heavy dependencies, sub-100ms first paint, and complete mobile optimization.</div>
+              <div><strong class="text-brandTextPrimary">Canvas Simulation:</strong> Interactive quantum particle field built with vanilla JavaScript trigonometry, line proximity checks, and mouse repulsion.</div>
+              <div><strong class="text-brandTextPrimary">Direct Connectivity:</strong> Custom form serialization routing booking leads directly into WhatsApp with structured payloads.</div>
+            </div>
+            <div class="p-3 bg-brandCyan/10 border border-brandCyan/30 rounded-xl text-xs text-brandCyan font-semibold">
+              <i class="fa-solid fa-code mr-1.5"></i> Cleanly architected and version controlled on GitHub.
             </div>
           </div>
         `;
@@ -1275,7 +1439,7 @@
     });
 
     /* ----------------------------------------------------
-       7. SERVICE CHIPS & WHATSAPP DIRECT FORM (0312 5771381)
+       8. SERVICE CHIPS & WHATSAPP DIRECT FORM (0312 5771381)
     ---------------------------------------------------- */
     let selectedChips = [];
 
